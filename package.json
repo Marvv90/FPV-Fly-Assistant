@@ -1,0 +1,22 @@
+{
+  "name": "fpv-fly-assistant",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marvv90/FPV-Fly-Assistant.git"
+  },
+  "author": "Marvin Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marvv90/FPV-Fly-Assistant/issues"
+  },
+  "homepage": "https://github.com/Marvv90/FPV-Fly-Assistant#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
