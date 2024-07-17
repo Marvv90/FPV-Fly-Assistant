@@ -4,7 +4,8 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently -n FRONTEND -c magenta \"npm run start:frontend\"",
+    "start:frontend": "cd frontend && ng serve -o"
   },
   "repository": {
     "type": "git",
